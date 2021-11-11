@@ -1,14 +1,15 @@
-﻿using System;
+﻿using Drag_drop_observable_uc.Commands;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using UC_drop_test.Commands;
 
-namespace UC_drop_test.ViewModels
+namespace Drag_drop_observable_uc.ViewModel
 {
-    public class DialogWindowViewModel : BaseViewModel
+    internal class DialogWindowViewModel : BaseViewModel
+
     {
         public event EventHandler Ok;
         public event EventHandler Cancel;
@@ -34,3 +35,4 @@ namespace UC_drop_test.ViewModels
         public ICommand CancelCommand { get; init; }
     }
 }
+

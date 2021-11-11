@@ -9,11 +9,11 @@ using UC_drop_test.UC;
 
 namespace UC_drop_test.ViewModels
 {
-    class ItemListingViewModel : NotifyableBaseObject
+    class ItemListingViewModel : BaseViewModel
     {
 
         public event EventHandler OpenDialog;
-        public event EventHandler NewUC;
+        //public event EventHandler NewUC;
 
         public ItemListingViewModel()
         {

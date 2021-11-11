@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drag_and_Drop_test", "Drag_and_Drop_test\Drag_and_Drop_test.csproj", "{43EBD6C5-7E6B-4191-B721-3699803F802A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UC-drop-test", "UC-drop-test\UC-drop-test.csproj", "{5C4DC5F1-351A-477F-A8B6-3B5C4BE097CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UC-drop-test", "UC-drop-test\UC-drop-test.csproj", "{5C4DC5F1-351A-477F-A8B6-3B5C4BE097CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drag_drop_observable_uc", "Drag_drop_observable_uc\Drag_drop_observable_uc.csproj", "{BCEC564B-65D9-472C-B47A-E815FD87835D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5C4DC5F1-351A-477F-A8B6-3B5C4BE097CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C4DC5F1-351A-477F-A8B6-3B5C4BE097CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C4DC5F1-351A-477F-A8B6-3B5C4BE097CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCEC564B-65D9-472C-B47A-E815FD87835D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEC564B-65D9-472C-B47A-E815FD87835D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEC564B-65D9-472C-B47A-E815FD87835D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEC564B-65D9-472C-B47A-E815FD87835D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

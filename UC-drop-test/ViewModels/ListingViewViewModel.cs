@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UC_drop_test.ViewModels
 {
-    public class ListingViewViewModel  : NotifyableBaseObject
+    public class ListingViewViewModel  : BaseViewModel
     {
         public ListingViewViewModel()
         {
